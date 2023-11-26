@@ -3,7 +3,7 @@ abstract class KrediBase {
     constructor() {
         
     }
-    Kaydet():void{// Burda Void Yazmasak ta olurdu Yazılım Kuralları Dahilinde Yazım Tekniği Düzgün olsun Diye yazıldı
+    Kaydet():void{// Burda Void Yazmasak da olurdu Yazılım Kuralları Dahilinde Yazım Tekniği Düzgün olsun Diye yazıldı
         console.log("Kaydedildi")// Bu Metod İse Gövde Kısmı Tamamlanmış Ve bu sınıf miras Edildiği Zaman Kullanılması Zorunlu değildir C# la Aynı Özelliğe Sahip 
     }
     abstract Hesapla():void;// Burda Tamamlanmamış Bir metod var bu metot bu sınıf başka bir sınıfta miras alınır sa Yaılan Abstrack metodu kullanılıması zorunludur
